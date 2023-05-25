@@ -6,34 +6,37 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <title>Lenid Dubinin</title>
 </head>
-<body>
-    <main>
+<body> 
+    <main id="bl_tema">
         <img src="img/Logo.svg" class="lg" alt="">
 
-        <a class="right__border" href=""><img src="img/menu_icon.svg" alt="" class="menu__icon "></a>
+        <label class="switch">
+            <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
+            <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>   
+            <input type="checkbox" class="input" id="checkbox_day">
+            <span class="slider"></span>
+        </label>
+
+
+        <a class="right__border"><img src="img/burger-bar.png" alt="" class="menu__icon"></a>
     </main>
     <div class="disp__one">
+        <div class="right__menu">
+            <div class="top__menu">
+                <img src="favicon.svg" class="logo__menu" alt="">
+                <img src="img/exit.svg" class="but__exit"> 
+            </div>
+            <span class="right__menu__item">Обо мне</span>
+            <span class="right__menu__item">Услуги</span>
+        </div>
     
         <h1 class="Gl__Name">Leonid Dubinin</h1>
     </div>
-    <div class="disp__two">
+    <div class="disp__two" id="">
         <div class="cont__menu">
             <button class="menu__item">ВСЕ</button>
             <button class="menu__item">ОБО МНЕ</button>
             <button class="menu__item">УСЛУГИ</button>
-        </div>
-        <div class="cont__any_me auto">
-            <div class="row_cont__any_me">
-                <img src="img/go_ld_lg.png" alt="" class="img__any_me">
-                <p style="margin-left: auto; margin-right: 0; text-align: right;" class="info__any_me"><span style="font-weight: 600;">Ювелирный лофт go_LD</span> <br> это ювелирная мастерская, где мы с вами создадим уникальные и неповторимые обручальные кольца.</p>
-            </div>
-            <div class="row_cont__any_me">
-                <p class="info__any_me">На мастер-классе, где вы вдвоем под руководством мастера создадите ваши единственные в своем роде обручальные кольца от плавки металла, до финишной полировки за 2 - 5 часов.</p>
-                <img style="margin-left: auto; margin-right: 0; height: 100%; border-radius: 10px;" src="img/coin.jpg" alt="" class="img__any_me">
-            </div>
-        </div>
-        <div class="line__black">
-            <h3 style="color: white; font-weight: 400;">ОБО МНЕ</h3>
         </div>
         <div class="cont__services auto">
             <div class="row_cont__any_me">
@@ -45,8 +48,21 @@
                 <img style="margin-left: auto; margin-right: 0; height: 100%; border-radius: 10px;" src="img/leonid5.jpeg" alt="" class="img__any_me">
             </div>
         </div>
+        <div class="line__black">
+            <h3 style="color: white; font-weight: 400;">ОБО МНЕ</h3>
+        </div>
+        <div class="cont__any_me auto">
+            <div class="row_cont__any_me">
+                <img src="img/go_ld_lg.png" alt="" class="img__any_me">
+                <p style="margin-left: auto; margin-right: 0; text-align: right;" class="info__any_me"><span style="font-weight: 600;">Ювелирный лофт go_LD</span> <br> это ювелирная мастерская, где мы с вами создадим уникальные и неповторимые обручальные кольца.</p>
+            </div>
+            <div class="row_cont__any_me">
+                <p class="info__any_me">На мастер-классе, где вы вдвоем под руководством мастера создадите ваши единственные в своем роде обручальные кольца от плавки металла, до финишной полировки за 2 - 5 часов.</p>
+                <img style="margin-left: auto; margin-right: 0; height: 100%; border-radius: 10px;" src="img/coin.jpg" alt="" class="img__any_me">
+            </div>
+        </div>
     </div>
-    <footer>
+    <footer id="footer_bl_tema">
         <a class="footer__a" href="">Instagram</a>
         <a class="footer__a" href="">Telegram</a>
         <a class="footer__a" href="">VKontakte</a>
